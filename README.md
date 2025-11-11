@@ -16,6 +16,19 @@ Workspace discovery and booking portal built with **PHP**, **MySQL**, and **vani
 
 ---
 
+## 🚀 Quick Start
+
+**New to this project?** Start here:
+
+1. 📖 Read the **[Installation Guide](INSTALLATION.md)** for step-by-step setup instructions
+2. 🔧 Ensure XAMPP (Apache + MySQL) is installed and running
+3. 🗄️ Import `database/schema.sql` into MySQL (via phpMyAdmin or command line)
+4. 🌐 Open `http://localhost/bookin1211` in your browser
+
+For detailed troubleshooting, see [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md).
+
+---
+
 ## 🧰 Tech Stack
 
 | Layer        | Technology / Notes                                   |
@@ -181,10 +194,20 @@ Common issues and fixes are documented in [`docs/TROUBLESHOOTING.md`](docs/TROUB
 
 ## 📈 Roadmap Ideas
 
-- Persist “My Bookings” per user session (local storage or server-side).
+- Persist "My Bookings" per user session (local storage or server-side).
 - Admin dashboard for managing spaces, availability, and bookings.
 - Export calendar invites or integration with Google Calendar/Outlook.
 - Internationalization for currencies & locales.
+
+---
+
+## 📚 Documentation
+
+| Document | Description |
+|----------|-------------|
+| **[INSTALLATION.md](INSTALLATION.md)** | Complete step-by-step installation and setup guide |
+| **[docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)** | Common issues, error solutions, and debugging tips |
+| **README.md** (this file) | Project overview, features, and architecture |
 
 ---
 
